@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Merry Christmas & Happy New Year 🎄</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<header>
+  <h2>🎄 Celebration</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#wishes">Wishes</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>Merry Christmas 🎅</h1>
+  <p>Wishing you love, joy & happiness</p>
+  <button onclick="playMusic()">Start Celebration 🎶</button>
+</section>
+
+<section id="wishes" class="wishes">
+  <h2>Send Your Wish 💌</h2>
+  <input id="name" placeholder="Your Name">
+  <textarea id="msg" placeholder="Your Wish"></textarea>
+  <button onclick="showWish()">Send Wish</button>
+  <div id="output"></div>
+</section>
+
+<section id="gallery" class="gallery">
+  <h2>Christmas Gallery 🎁</h2>
+  <div class="grid">
+    <img src="images/tree.png">
+    <img src="images/santa.png">
+    <img src="images/gifts.png">
+  </div>
+</section>
+
+<footer>
+  © 2025 Christmas Celebration | Made with ❤️
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
